@@ -1,4 +1,1 @@
-String.prototype.startsWith = String.prototype.startsWith || function(s, i) {
-  if (typeof i !== "number" || isNaN(i)) i = 0;
-  return s === this.substring(i, i + s.length);
-}
+String.prototype.startsWith=String.prototype.startsWith||function(s,i){i=typeof i!="number"||isNaN(i)?0:i;return s===this.substring(i,i+s.length)}
