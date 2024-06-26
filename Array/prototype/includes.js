@@ -1,0 +1,1 @@
+Array.prototype.includes = Array.prototype.includes || function(s) { return this.indexOf(s) !== -1 }
