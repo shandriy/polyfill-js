@@ -1,0 +1,1 @@
+String.prototype.isWellFormed=String.prototype.isWellFormed||function(){try{encodeURI(this)}catch(e){return!1}return!0}
